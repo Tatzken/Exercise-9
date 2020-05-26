@@ -9,6 +9,8 @@ if (c > 0) {
     console.log("a was bigger than b")
 }
 
+
+
 if (a > 0 && b > 0) {
     console.log("both numbers are greater than 0");
 } else if (a > 0 || b > 0) {
