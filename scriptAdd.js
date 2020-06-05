@@ -7,7 +7,8 @@ const content = document.getElementById("content");
 
 function addParagraph() {
     const newParagraph = document.createElement("p");
-    newParagraph.innerText = "Hey, I'm new!";
+    newParagraph.innerText = myText.value;
+    newParagraph.className = "beautiful";
     content.appendChild(newParagraph);
 }
 
