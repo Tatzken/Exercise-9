@@ -1,0 +1,28 @@
+h1 {
+    color: green;
+    background-color: #0892d0;
+    padding: 40px;
+}
+
+
+/* Select by element */
+
+p {
+    font-family: Helvetica;
+    font-style: italic;
+}
+
+
+/* Select by id */
+
+#special {
+    text-align: center;
+    font-size: 15;
+}
+
+
+/* Select by class */
+
+.highlight {
+    color: red;
+}
